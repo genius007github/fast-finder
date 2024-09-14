@@ -1,0 +1,36 @@
+.search-bar-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .search-results {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(221, 231, 76);
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 2px;
+    z-index: 1000;
+  }
+  
+  .search-results li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .search-results li:hover {
+    background-color: #d31919;
+  }
+  
